@@ -4,7 +4,6 @@
     "description": "Restores select and copying functionality on panelook.com",
     "version": "0.0.1",
     "content_scripts": [{
-        "run_at": "document_end",
         "js": ["panelook-select-fix.js"],
         "matches": [
 	    "http://*.panelook.com/*",
