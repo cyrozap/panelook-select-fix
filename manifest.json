@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Panelook Select Fix",
+    "description": "Restores select and copying functionality on panelook.com",
+    "version": "0.0.1",
+    "content_scripts": [{
+        "run_at": "document_end",
+        "js": ["panelook-select-fix.js"],
+        "matches": [
+	    "http://*.panelook.com/*",
+	    "https://*.panelook.com/*"
+	]
+    }],
+    "permissions": [
+        "http://*.panelook.com/*",
+        "https://*.panelook.com/*"
+    ]
+}
