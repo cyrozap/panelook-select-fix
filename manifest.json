@@ -6,9 +6,9 @@
     "content_scripts": [{
         "js": ["panelook-select-fix.js"],
         "matches": [
-	    "http://*.panelook.com/*",
-	    "https://*.panelook.com/*"
-	]
+            "http://*.panelook.com/*",
+            "https://*.panelook.com/*"
+        ]
     }],
     "permissions": [
         "http://*.panelook.com/*",
