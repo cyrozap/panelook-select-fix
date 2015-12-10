@@ -7,7 +7,7 @@
         "js": ["panelook-select-fix.js"],
         "matches": [
             "http://*.panelook.com/*",
-            "https://*.panelook.com/*"
+            "http://*.panelook.cn/*"
         ]
     }],
     "permissions": [
