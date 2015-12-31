@@ -12,6 +12,6 @@
     }],
     "permissions": [
         "http://*.panelook.com/*",
-        "https://*.panelook.com/*"
+        "http://*.panelook.cn/*"
     ]
 }
